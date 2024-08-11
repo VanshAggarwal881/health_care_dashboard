@@ -1,0 +1,107 @@
+.patientinfo{
+    height: 727px;
+    margin-left: 32px;
+}
+.patientpng{
+    width: 200px;
+height: 200px;
+
+background: transparent url('img/Layer 2.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-left: 83px;
+margin-top: 32px;
+}
+.patient-name{
+    margin-left: 104px;
+    width: 164px;
+height: 33px;
+font-size: 24px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 700;
+text-align: center;
+margin-top: 16px;
+}
+
+.basic-info{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-top: 16px;
+}
+.inner-basic-info{
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+.dob-icon{
+    background: transparent url('img/BirthIcon.svg') 0% 0% no-repeat padding-box;
+}
+
+.gender-icon{
+    background: transparent url('img/FemaleIcon.png') 0% 0% no-repeat padding-box;
+}
+.contact-icon{
+    background: transparent url('img/PhoneIcon.jpg') 0% 0% no-repeat padding-box;
+}
+.insurance-icon{
+    background: transparent url('img/InsuranceIcon.jpg') 0% 0% no-repeat padding-box;
+}
+.info-icon{
+    width: 42px;
+height: 42px;
+/* UI Properties */
+
+opacity: 1;
+}
+.dob-context{
+    margin-left: 12px;
+}
+.dob-context p{
+    /* width: 84px; */
+    margin: 5px 0px;
+height: 19px;
+font-size: 15px;
+color: #072635;
+text-transform: capitalize;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 500;
+}
+.dob-context h4{
+    /* width: 118px; */
+    margin: 5px 0px;
+height: 19px;
+font-size: 15px;
+color: #072635;
+text-transform: capitalize;
+opacity: 1;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.show-btn-div{
+    width: 300px;
+height: 63px;
+/* border: 1px solid black; */
+margin-top: 16px;
+margin-left: 33px;
+}
+.btn-div{
+    width: 220px;
+height: 41px;
+margin-left: 40px;
+margin-top: 11px;
+border-radius: 41px;
+background-color: #01F0D0;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+cursor: pointer;
+}
